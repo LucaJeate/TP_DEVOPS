@@ -1,6 +1,7 @@
 name : Simple workflow
 
-on : Workflow_Dispatch:
+on : 
+  workflow_dispatch:
 
 jobs:
     job1:
