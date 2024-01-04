@@ -1,6 +1,6 @@
 name : Simple workflow
 
-on : [push]
+on : push
 
 jobs:
     job1:
