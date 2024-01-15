@@ -1,4 +1,4 @@
-name: ML Model CI 4
+name: Failure
 
 on: workflow_dispatch
     
