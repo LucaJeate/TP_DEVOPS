@@ -56,6 +56,7 @@ jobs:
     - name: Test Model
       env:
         SEUIL: ${{ vars.TEST }}
+      if: ${{ vars.TEST >= 0.9 && vars.TEST <= 1}}
       run: |
         echo $SEUIL
         python test.py
